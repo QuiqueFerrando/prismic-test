@@ -1,0 +1,77 @@
+{
+  "type": "SharedSlice",
+  "id": "tab_panel",
+  "name": "TabPanel",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Standard tab panel section with editable tabs, each having close functionality and associated content area.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "tabs": {
+          "type": "Group",
+          "config": {
+            "label": "Tabs",
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Tab Label"
+                }
+              },
+              "closable": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Closable"
+                }
+              },
+              "content": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                  "label": "Tab Content"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "tabbedContentWithoutClosing",
+      "name": "TabbedContentWithoutClosing",
+      "description": "Standard tab panel section with editable tabs, each having close functionality and associated content area.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "tabs": {
+          "type": "Group",
+          "config": {
+            "label": "Tabs",
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Tab Label"
+                }
+              },
+              "content": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                  "label": "Tab Content"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

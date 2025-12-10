@@ -1,0 +1,33 @@
+{
+  "id": "custom_slice",
+  "type": "SharedSlice",
+  "name": "CustomSlice",
+  "description": "CustomSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "titulo": {
+          "type": "Text",
+          "config": {
+            "label": "Titulo",
+            "placeholder": ""
+          }
+        },
+        "tiempo": {
+          "type": "Timestamp",
+          "config": {
+            "label": "tiempo",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
